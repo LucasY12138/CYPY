@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(155, 211, 229) !important;
+  }
+.imageContainer{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    overflow: auto;
+}
+.img-result{
+    max-width: 90%;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    position: relative;
+    top: 30vw;
+}
+
